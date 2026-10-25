@@ -1,0 +1,63 @@
+# ---------------------------------------------------------------
+# Digital VLSI Design repository
+# Ignore tool-generated clutter from Cadence / HSPICE / Synopsys
+# flows. Schematics, netlists, testbenches, scripts, and
+# documentation screenshots are kept.
+# ---------------------------------------------------------------
+
+# Cadence Virtuoso / ADE run and lock files
+*.cdslck
+*.cdslck.*
+.cadence/
+.ade*/
+ADE*/
+simulation/
+psf/
+*.psf
+*.tran.tran
+*.dc.dc
+*.ac.ac
+*.log
+*.ahdlSimDB
+*.ahdlcmi
+*.lck
+CDS.log*
+panic.log*
+.oalib
+.lastgenerated
+
+# HSPICE / simulator outputs (large binary results)
+*.tr0
+*.tr1
+*.ac0
+*.sw0
+*.sw1
+*.mt0
+*.mt1
+*.ms0
+*.ic0
+*.st0
+*.pa0
+*.lis
+*.fsdb
+*.vcd
+*.raw
+*.wdb
+
+# Spectre / Xcelium scratch
+*.ahdl
+xcelium.d/
+INCA_libs/
+
+# Editor and OS clutter
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python scratch used to generate documentation plots
+__pycache__/
+*.pyc

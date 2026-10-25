@@ -1,5 +1,7 @@
 # Digital VLSI Design
 
+Author: Saif Alomari
+
 A collection of transistor-level CMOS design, simulation, and optimization projects. The work began in Fall 2026 and explores how circuit behavior, timing, transistor sizing, and performance respond to design decisions, using industry-standard electronic design automation tools and a 7 nm FinFET predictive process.
 
 Each project directory contains its own detailed README with the design setup, simulation parameters, measured results, and the full set of simulation screenshots.
@@ -60,20 +62,3 @@ The ring oscillator and propagation delay measurements are still in progress; th
 ![Seven-stage ring oscillator schematic built from the inverter symbol](Project_01/images/ring-oscillator/Schematic.png)
 
 *Seven-stage ring oscillator assembled from the inverter symbol, with the output of the last stage fed back to the first. The first transient run held at 0.7 V; startup investigation is ongoing.*
-
-## Repository Structure
-
-```text
-Digital-VLSI-Design/
-├── README.md                 This overview
-├── .gitignore                Excludes simulator run data and tool clutter
-└── Project_01/               CMOS Inverter Design and Timing Optimization
-    ├── README.md             Full technical documentation
-    └── images/
-        ├── dc-analysis/
-        ├── process-corners/
-        ├── transient-analysis/
-        └── ring-oscillator/
-```
-
-New projects follow the same pattern: a numbered `Project_NN/` directory with its own `README.md` and an `images/` folder grouped by investigation, plus a short entry in the Projects section above.
